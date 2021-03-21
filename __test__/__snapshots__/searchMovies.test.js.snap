@@ -1,0 +1,81 @@
+
+
+exports[`testing searchMovies function by title 1`] = `
+Array [
+  Object {
+    "rating": "★★★★★",
+    "title": "animeshmovie",
+    "year": "2021",
+  },
+] 
+`;
+
+exports[`testing searchMovies function sequencial search 1`] = `
+Array [
+  Object {
+    "rating": "★",
+    "title": "Alien",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Aliens",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Alien 3",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Alien 4",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Alien: Covenant",
+    "year": "2020",
+  },
+]
+`;
+
+exports[`testing searchMovies function sequencial search 2`] = `
+Array [
+  Object {
+    "rating": "★",
+    "title": "Alien",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Aliens",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Alien 3",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Alien 4",
+    "year": "2020",
+  },
+  Object {
+    "rating": "★",
+    "title": "Alien: Covenant",
+    "year": "2020",
+  },
+]
+`;
+
+exports[`testing searchMovies function sequencial search 3`] = `
+Array [
+  Object {
+    "rating": "★",
+    "title": "Alien 3",
+    "year": "2020",
+  },
+]
+`;
